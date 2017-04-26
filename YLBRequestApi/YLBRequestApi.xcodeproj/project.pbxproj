@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D69613621EB0831900DB67D3 /* YTKBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D69613501EB0831900DB67D3 /* YTKBaseRequest.m */; };
+		D69613631EB0831900DB67D3 /* YTKBatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D69613521EB0831900DB67D3 /* YTKBatchRequest.m */; };
+		D69613641EB0831900DB67D3 /* YTKBatchRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = D69613541EB0831900DB67D3 /* YTKBatchRequestAgent.m */; };
+		D69613651EB0831900DB67D3 /* YTKChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D69613561EB0831900DB67D3 /* YTKChainRequest.m */; };
+		D69613661EB0831900DB67D3 /* YTKChainRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = D69613581EB0831900DB67D3 /* YTKChainRequestAgent.m */; };
+		D69613671EB0831900DB67D3 /* YTKNetworkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = D696135B1EB0831900DB67D3 /* YTKNetworkAgent.m */; };
+		D69613681EB0831900DB67D3 /* YTKNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D696135D1EB0831900DB67D3 /* YTKNetworkConfig.m */; };
+		D69613691EB0831900DB67D3 /* YTKNetworkPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = D696135F1EB0831900DB67D3 /* YTKNetworkPrivate.m */; };
+		D696136A1EB0831900DB67D3 /* YTKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D69613611EB0831900DB67D3 /* YTKRequest.m */; };
+		D696137F1EB0836500DB67D3 /* GetNeighbourListApi.m in Sources */ = {isa = PBXBuildFile; fileRef = D696136C1EB0836500DB67D3 /* GetNeighbourListApi.m */; };
+		D69613801EB0836500DB67D3 /* LoginApi.m in Sources */ = {isa = PBXBuildFile; fileRef = D696136E1EB0836500DB67D3 /* LoginApi.m */; };
+		D69613811EB0836500DB67D3 /* LoginPrepareApi.m in Sources */ = {isa = PBXBuildFile; fileRef = D69613701EB0836500DB67D3 /* LoginPrepareApi.m */; };
+		D69613821EB0836500DB67D3 /* LoginSuccessReformer.m in Sources */ = {isa = PBXBuildFile; fileRef = D69613721EB0836500DB67D3 /* LoginSuccessReformer.m */; };
+		D69613831EB0836500DB67D3 /* NeighbourCanBindingApi.m in Sources */ = {isa = PBXBuildFile; fileRef = D69613751EB0836500DB67D3 /* NeighbourCanBindingApi.m */; };
+		D69613841EB0836500DB67D3 /* NeighbourCanBindingReformer.m in Sources */ = {isa = PBXBuildFile; fileRef = D69613781EB0836500DB67D3 /* NeighbourCanBindingReformer.m */; };
+		D69613851EB0836500DB67D3 /* NeighourListReformer.m in Sources */ = {isa = PBXBuildFile; fileRef = D696137A1EB0836500DB67D3 /* NeighourListReformer.m */; };
+		D69613861EB0836600DB67D3 /* RandomReformer.m in Sources */ = {isa = PBXBuildFile; fileRef = D696137E1EB0836500DB67D3 /* RandomReformer.m */; };
+		D69613A41EB0865000DB67D3 /* libYLBTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D69613A31EB0865000DB67D3 /* libYLBTools.a */; };
+		E67F8346CEC5CA49748F9146 /* libPods-YLBRequestApi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C3B2233AA28907B40171AC /* libPods-YLBRequestApi.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D69613311EB0801200DB67D3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		420EDD2FA0A1E9D832076766 /* Pods-YLBRequestApi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBRequestApi.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-YLBRequestApi/Pods-YLBRequestApi.debug.xcconfig"; sourceTree = "<group>"; };
+		D519EADB4D179187F930299C /* Pods-YLBRequestApi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBRequestApi.release.xcconfig"; path = "../Pods/Target Support Files/Pods-YLBRequestApi/Pods-YLBRequestApi.release.xcconfig"; sourceTree = "<group>"; };
+		D69613331EB0801200DB67D3 /* libYLBRequestApi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYLBRequestApi.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D696134F1EB0831900DB67D3 /* YTKBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKBaseRequest.h; sourceTree = "<group>"; };
+		D69613501EB0831900DB67D3 /* YTKBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKBaseRequest.m; sourceTree = "<group>"; };
+		D69613511EB0831900DB67D3 /* YTKBatchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKBatchRequest.h; sourceTree = "<group>"; };
+		D69613521EB0831900DB67D3 /* YTKBatchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKBatchRequest.m; sourceTree = "<group>"; };
+		D69613531EB0831900DB67D3 /* YTKBatchRequestAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKBatchRequestAgent.h; sourceTree = "<group>"; };
+		D69613541EB0831900DB67D3 /* YTKBatchRequestAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKBatchRequestAgent.m; sourceTree = "<group>"; };
+		D69613551EB0831900DB67D3 /* YTKChainRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKChainRequest.h; sourceTree = "<group>"; };
+		D69613561EB0831900DB67D3 /* YTKChainRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKChainRequest.m; sourceTree = "<group>"; };
+		D69613571EB0831900DB67D3 /* YTKChainRequestAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKChainRequestAgent.h; sourceTree = "<group>"; };
+		D69613581EB0831900DB67D3 /* YTKChainRequestAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKChainRequestAgent.m; sourceTree = "<group>"; };
+		D69613591EB0831900DB67D3 /* YTKNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetwork.h; sourceTree = "<group>"; };
+		D696135A1EB0831900DB67D3 /* YTKNetworkAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkAgent.h; sourceTree = "<group>"; };
+		D696135B1EB0831900DB67D3 /* YTKNetworkAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkAgent.m; sourceTree = "<group>"; };
+		D696135C1EB0831900DB67D3 /* YTKNetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkConfig.h; sourceTree = "<group>"; };
+		D696135D1EB0831900DB67D3 /* YTKNetworkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkConfig.m; sourceTree = "<group>"; };
+		D696135E1EB0831900DB67D3 /* YTKNetworkPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkPrivate.h; sourceTree = "<group>"; };
+		D696135F1EB0831900DB67D3 /* YTKNetworkPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkPrivate.m; sourceTree = "<group>"; };
+		D69613601EB0831900DB67D3 /* YTKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKRequest.h; sourceTree = "<group>"; };
+		D69613611EB0831900DB67D3 /* YTKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKRequest.m; sourceTree = "<group>"; };
+		D696136B1EB0836500DB67D3 /* GetNeighbourListApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetNeighbourListApi.h; sourceTree = "<group>"; };
+		D696136C1EB0836500DB67D3 /* GetNeighbourListApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetNeighbourListApi.m; sourceTree = "<group>"; };
+		D696136D1EB0836500DB67D3 /* LoginApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginApi.h; sourceTree = "<group>"; };
+		D696136E1EB0836500DB67D3 /* LoginApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginApi.m; sourceTree = "<group>"; };
+		D696136F1EB0836500DB67D3 /* LoginPrepareApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginPrepareApi.h; sourceTree = "<group>"; };
+		D69613701EB0836500DB67D3 /* LoginPrepareApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginPrepareApi.m; sourceTree = "<group>"; };
+		D69613711EB0836500DB67D3 /* LoginSuccessReformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginSuccessReformer.h; sourceTree = "<group>"; };
+		D69613721EB0836500DB67D3 /* LoginSuccessReformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginSuccessReformer.m; sourceTree = "<group>"; };
+		D69613731EB0836500DB67D3 /* LoginSuccessReformerKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginSuccessReformerKeys.h; sourceTree = "<group>"; };
+		D69613741EB0836500DB67D3 /* NeighbourCanBindingApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeighbourCanBindingApi.h; sourceTree = "<group>"; };
+		D69613751EB0836500DB67D3 /* NeighbourCanBindingApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeighbourCanBindingApi.m; sourceTree = "<group>"; };
+		D69613761EB0836500DB67D3 /* NeighbourCanBindingKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeighbourCanBindingKeys.h; sourceTree = "<group>"; };
+		D69613771EB0836500DB67D3 /* NeighbourCanBindingReformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeighbourCanBindingReformer.h; sourceTree = "<group>"; };
+		D69613781EB0836500DB67D3 /* NeighbourCanBindingReformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeighbourCanBindingReformer.m; sourceTree = "<group>"; };
+		D69613791EB0836500DB67D3 /* NeighourListReformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeighourListReformer.h; sourceTree = "<group>"; };
+		D696137A1EB0836500DB67D3 /* NeighourListReformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeighourListReformer.m; sourceTree = "<group>"; };
+		D696137B1EB0836500DB67D3 /* NeighourListReformerKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeighourListReformerKeys.h; sourceTree = "<group>"; };
+		D696137D1EB0836500DB67D3 /* RandomReformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomReformer.h; sourceTree = "<group>"; };
+		D696137E1EB0836500DB67D3 /* RandomReformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomReformer.m; sourceTree = "<group>"; };
+		D69613871EB083C200DB67D3 /* YLBRequestApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLBRequestApi.h; sourceTree = "<group>"; };
+		D69613A31EB0865000DB67D3 /* libYLBTools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libYLBTools.a; path = "../YLBTools/build/Debug-iphoneos/libYLBTools.a"; sourceTree = "<group>"; };
+		E1C3B2233AA28907B40171AC /* libPods-YLBRequestApi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YLBRequestApi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D69613301EB0801200DB67D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69613A41EB0865000DB67D3 /* libYLBTools.a in Frameworks */,
+				E67F8346CEC5CA49748F9146 /* libPods-YLBRequestApi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041DDD9571C0561A7153B3E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D69613A31EB0865000DB67D3 /* libYLBTools.a */,
+				E1C3B2233AA28907B40171AC /* libPods-YLBRequestApi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C75E74C45F9D806AFEB4A80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				420EDD2FA0A1E9D832076766 /* Pods-YLBRequestApi.debug.xcconfig */,
+				D519EADB4D179187F930299C /* Pods-YLBRequestApi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D696132A1EB0801200DB67D3 = {
+			isa = PBXGroup;
+			children = (
+				D69613351EB0801200DB67D3 /* YLBRequestApi */,
+				D69613341EB0801200DB67D3 /* Products */,
+				4C75E74C45F9D806AFEB4A80 /* Pods */,
+				041DDD9571C0561A7153B3E9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D69613341EB0801200DB67D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D69613331EB0801200DB67D3 /* libYLBRequestApi.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D69613351EB0801200DB67D3 /* YLBRequestApi */ = {
+			isa = PBXGroup;
+			children = (
+				D69613871EB083C200DB67D3 /* YLBRequestApi.h */,
+				D696136B1EB0836500DB67D3 /* GetNeighbourListApi.h */,
+				D696136C1EB0836500DB67D3 /* GetNeighbourListApi.m */,
+				D696136D1EB0836500DB67D3 /* LoginApi.h */,
+				D696136E1EB0836500DB67D3 /* LoginApi.m */,
+				D696136F1EB0836500DB67D3 /* LoginPrepareApi.h */,
+				D69613701EB0836500DB67D3 /* LoginPrepareApi.m */,
+				D69613711EB0836500DB67D3 /* LoginSuccessReformer.h */,
+				D69613721EB0836500DB67D3 /* LoginSuccessReformer.m */,
+				D69613731EB0836500DB67D3 /* LoginSuccessReformerKeys.h */,
+				D69613741EB0836500DB67D3 /* NeighbourCanBindingApi.h */,
+				D69613751EB0836500DB67D3 /* NeighbourCanBindingApi.m */,
+				D69613761EB0836500DB67D3 /* NeighbourCanBindingKeys.h */,
+				D69613771EB0836500DB67D3 /* NeighbourCanBindingReformer.h */,
+				D69613781EB0836500DB67D3 /* NeighbourCanBindingReformer.m */,
+				D69613791EB0836500DB67D3 /* NeighourListReformer.h */,
+				D696137A1EB0836500DB67D3 /* NeighourListReformer.m */,
+				D696137B1EB0836500DB67D3 /* NeighourListReformerKeys.h */,
+				D696137D1EB0836500DB67D3 /* RandomReformer.h */,
+				D696137E1EB0836500DB67D3 /* RandomReformer.m */,
+				D696134E1EB0831900DB67D3 /* YTKNetwork */,
+			);
+			path = YLBRequestApi;
+			sourceTree = "<group>";
+		};
+		D696134E1EB0831900DB67D3 /* YTKNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				D696134F1EB0831900DB67D3 /* YTKBaseRequest.h */,
+				D69613501EB0831900DB67D3 /* YTKBaseRequest.m */,
+				D69613511EB0831900DB67D3 /* YTKBatchRequest.h */,
+				D69613521EB0831900DB67D3 /* YTKBatchRequest.m */,
+				D69613531EB0831900DB67D3 /* YTKBatchRequestAgent.h */,
+				D69613541EB0831900DB67D3 /* YTKBatchRequestAgent.m */,
+				D69613551EB0831900DB67D3 /* YTKChainRequest.h */,
+				D69613561EB0831900DB67D3 /* YTKChainRequest.m */,
+				D69613571EB0831900DB67D3 /* YTKChainRequestAgent.h */,
+				D69613581EB0831900DB67D3 /* YTKChainRequestAgent.m */,
+				D69613591EB0831900DB67D3 /* YTKNetwork.h */,
+				D696135A1EB0831900DB67D3 /* YTKNetworkAgent.h */,
+				D696135B1EB0831900DB67D3 /* YTKNetworkAgent.m */,
+				D696135C1EB0831900DB67D3 /* YTKNetworkConfig.h */,
+				D696135D1EB0831900DB67D3 /* YTKNetworkConfig.m */,
+				D696135E1EB0831900DB67D3 /* YTKNetworkPrivate.h */,
+				D696135F1EB0831900DB67D3 /* YTKNetworkPrivate.m */,
+				D69613601EB0831900DB67D3 /* YTKRequest.h */,
+				D69613611EB0831900DB67D3 /* YTKRequest.m */,
+			);
+			path = YTKNetwork;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D69613321EB0801200DB67D3 /* YLBRequestApi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D696133C1EB0801200DB67D3 /* Build configuration list for PBXNativeTarget "YLBRequestApi" */;
+			buildPhases = (
+				4DF7CB8F60D1BEDA5612AD9A /* [CP] Check Pods Manifest.lock */,
+				D696132F1EB0801200DB67D3 /* Sources */,
+				D69613301EB0801200DB67D3 /* Frameworks */,
+				D69613311EB0801200DB67D3 /* CopyFiles */,
+				5C8A198AA66DC54BECC71B08 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLBRequestApi;
+			productName = YLBRequestApi;
+			productReference = D69613331EB0801200DB67D3 /* libYLBRequestApi.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D696132B1EB0801200DB67D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = chenjiangchuan;
+				TargetAttributes = {
+					D69613321EB0801200DB67D3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D696132E1EB0801200DB67D3 /* Build configuration list for PBXProject "YLBRequestApi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D696132A1EB0801200DB67D3;
+			productRefGroup = D69613341EB0801200DB67D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D69613321EB0801200DB67D3 /* YLBRequestApi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DF7CB8F60D1BEDA5612AD9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5C8A198AA66DC54BECC71B08 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-YLBRequestApi/Pods-YLBRequestApi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D696132F1EB0801200DB67D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69613851EB0836500DB67D3 /* NeighourListReformer.m in Sources */,
+				D69613821EB0836500DB67D3 /* LoginSuccessReformer.m in Sources */,
+				D69613651EB0831900DB67D3 /* YTKChainRequest.m in Sources */,
+				D696136A1EB0831900DB67D3 /* YTKRequest.m in Sources */,
+				D69613681EB0831900DB67D3 /* YTKNetworkConfig.m in Sources */,
+				D69613671EB0831900DB67D3 /* YTKNetworkAgent.m in Sources */,
+				D69613841EB0836500DB67D3 /* NeighbourCanBindingReformer.m in Sources */,
+				D69613691EB0831900DB67D3 /* YTKNetworkPrivate.m in Sources */,
+				D696137F1EB0836500DB67D3 /* GetNeighbourListApi.m in Sources */,
+				D69613621EB0831900DB67D3 /* YTKBaseRequest.m in Sources */,
+				D69613631EB0831900DB67D3 /* YTKBatchRequest.m in Sources */,
+				D69613801EB0836500DB67D3 /* LoginApi.m in Sources */,
+				D69613641EB0831900DB67D3 /* YTKBatchRequestAgent.m in Sources */,
+				D69613861EB0836600DB67D3 /* RandomReformer.m in Sources */,
+				D69613811EB0836500DB67D3 /* LoginPrepareApi.m in Sources */,
+				D69613661EB0831900DB67D3 /* YTKChainRequestAgent.m in Sources */,
+				D69613831EB0836500DB67D3 /* NeighbourCanBindingApi.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D696133A1EB0801200DB67D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../YLBTools/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D696133B1EB0801200DB67D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../YLBTools/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D696133D1EB0801200DB67D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 420EDD2FA0A1E9D832076766 /* Pods-YLBRequestApi.debug.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D696133E1EB0801200DB67D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D519EADB4D179187F930299C /* Pods-YLBRequestApi.release.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D696132E1EB0801200DB67D3 /* Build configuration list for PBXProject "YLBRequestApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D696133A1EB0801200DB67D3 /* Debug */,
+				D696133B1EB0801200DB67D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D696133C1EB0801200DB67D3 /* Build configuration list for PBXNativeTarget "YLBRequestApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D696133D1EB0801200DB67D3 /* Debug */,
+				D696133E1EB0801200DB67D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D696132B1EB0801200DB67D3 /* Project object */;
+}
